@@ -82,6 +82,7 @@ controls{
       keyboardKey:i=1
     }
 
+    ID_FLIGHTMENU_SETUP{}
     ID_ROCKETS{
       keyboardKey:i=5
     }
@@ -161,6 +162,7 @@ controls{
     ailerons{
       axisId:i=0
       mouseAxisId:i=-1
+      innerDeadzone:r=0.02
       nonlinearity:r=0
     }
 
@@ -185,11 +187,13 @@ controls{
     elevator{
       axisId:i=1
       mouseAxisId:i=-1
+      innerDeadzone:r=0.02
       nonlinearity:r=0
     }
 
     rudder{
       axisId:i=2
+      innerDeadzone:r=0.02
       nonlinearity:r=0
     }
 
