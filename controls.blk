@@ -220,13 +220,13 @@ controls{
       axisId:i=1
       mouseAxisId:i=-1
       innerDeadzone:r=0.1
-      nonlinearity:r=0
+      nonlinearity:r=1.5
     }
 
     rudder{
       axisId:i=2
       innerDeadzone:r=0.1
-      nonlinearity:r=0
+      nonlinearity:r=1.5
     }
 
     throttle{
@@ -255,12 +255,12 @@ controls{
   }
 
   params{
-    USEROPT_AILERONS_MULTIPLIER:i=100
+    USEROPT_AILERONS_MULTIPLIER:i=50
     USEROPT_ATGM_AIM_SENS_HELICOPTER:i=100
     USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=100
     USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
     USEROPT_AUTOTRIM:b=no
-    USEROPT_ELEVATOR_MULTIPLIER:i=10
+    USEROPT_ELEVATOR_MULTIPLIER:i=0
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
     USEROPT_FORCE_GAIN:i=50
     USEROPT_FREE_CAMERA_INERTIA:i=40
@@ -293,7 +293,7 @@ controls{
     USEROPT_MOUSE_USAGE:i=0
     USEROPT_MOUSE_USAGE_NO_AIM:i=0
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
-    USEROPT_RUDDER_MULTIPLIER:i=10
+    USEROPT_RUDDER_MULTIPLIER:i=0
     USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
     USEROPT_SHIP_COMBINE_PRI_SEC_TRIGGERS:b=yes
     USEROPT_SINGLE_SHOT_BY_TURRET:b=yes
@@ -304,7 +304,7 @@ controls{
 
   deviceMapping{
     joystick{
-      connected:b=no
+      connected:b=yes
       devId:t="046D:C215"
       axesOffset:i=0
       name:t="Extreme 3D pro"
@@ -316,9 +316,9 @@ controls{
 }
 
 settings{
-  aileronsMultiplier:r=1
-  elevatorMultiplier:r=0.1
-  rudderMultiplier:r=0.1
+  aileronsMultiplier:r=0.5
+  elevatorMultiplier:r=0
+  rudderMultiplier:r=0
   helicopterCyclicRollMultiplier:r=0.79
   helicopterCyclicPitchMultiplier:r=0.64
   helicopterPedalsMultiplier:r=0.43
