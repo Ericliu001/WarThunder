@@ -50,6 +50,14 @@ controls{
       joyButton:i=1
     }
 
+    ID_FIRE_GM_SECONDARY_GUN{
+      mouseButton:i=4
+    }
+
+    ID_FIRE_GM_SPECIAL_GUN{
+      keyboardKey:i=19
+    }
+
     ID_FIRE_MGUNS{
       mouseButton:i=0
     }
@@ -83,6 +91,10 @@ controls{
     }
 
     ID_FLIGHTMENU_SETUP{}
+    ID_LOCK_TARGET{
+      keyboardKey:i=45
+    }
+
     ID_PTT{
       keyboardKey:i=41
     }
@@ -128,8 +140,31 @@ controls{
       keyboardKey:i=183
     }
 
+    ID_SELECT_GM_GUN_MACHINEGUN{
+      keyboardKey:i=29
+      keyboardKey:i=4
+    }
+
+    ID_SELECT_GM_GUN_PRIMARY{
+      keyboardKey:i=29
+      keyboardKey:i=2
+    }
+
+    ID_SELECT_GM_GUN_RESET{
+      mouseButton:i=3
+    }
+
+    ID_SELECT_GM_GUN_SECONDARY{
+      keyboardKey:i=29
+      keyboardKey:i=3
+    }
+
     ID_SHORT_BRAKE{
       keyboardKey:i=19
+    }
+
+    ID_SQUAD_TARGET_DESIGNATION{
+      mouseButton:i=2
     }
 
     ID_TOGGLE_FOLLOWING_CAMERA{
@@ -177,6 +212,38 @@ controls{
 
     elevator_rangeMax{}
     elevator_rangeMin{}
+    gm_sight_distance_rangeMax{
+      keyboardKey:i=200
+    }
+
+    gm_sight_distance_rangeMin{
+      keyboardKey:i=208
+    }
+
+    gm_sight_distance_rangeSet{
+      keyboardKey:i=205
+    }
+
+    gm_sight_distance_rangeSet{
+      keyboardKey:i=203
+    }
+
+    gm_steering_rangeMax{
+      keyboardKey:i=30
+    }
+
+    gm_steering_rangeMin{
+      keyboardKey:i=32
+    }
+
+    gm_throttle_rangeMax{
+      keyboardKey:i=17
+    }
+
+    gm_throttle_rangeMin{
+      keyboardKey:i=31
+    }
+
     rudder_rangeMax{}
     rudder_rangeMin{}
     throttle_rangeMax{}
@@ -264,6 +331,7 @@ controls{
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
     USEROPT_FORCE_GAIN:i=50
     USEROPT_FREE_CAMERA_INERTIA:i=40
+    USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_INVERTY:b=no
     USEROPT_GUNNER_VIEW_SENSE:i=100
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=100
@@ -304,7 +372,7 @@ controls{
 
   deviceMapping{
     joystick{
-      connected:b=yes
+      connected:b=no
       devId:t="046D:C215"
       axesOffset:i=0
       name:t="Extreme 3D pro"
