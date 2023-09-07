@@ -6,133 +6,28 @@ controls{
   }
 
   hotkeys{
-    ID_BAY_DOOR{
-      keyboardKey:i=57
-    }
-
-    ID_BOMBS{
-      keyboardKey:i=4
-    }
-
-    ID_BOMBS{
-      mouseButton:i=3
-    }
-
-    ID_BOMBS{
-      joyButton:i=3
-    }
-
-    ID_CAMERA_NEUTRAL{
-      keyboardKey:i=46
-    }
-
-    ID_CAMERA_NEUTRAL{
-      keyboardKey:i=83
-    }
-
-    ID_CAMERA_NEUTRAL{
-      mouseButton:i=1
-    }
-
     ID_CONTINUE{
       keyboardKey:i=57
     }
-
     ID_FIRE_CANNONS{
       mouseButton:i=0
     }
-
-    ID_FIRE_CANNONS{
-      keyboardKey:i=3
-    }
-
-    ID_FIRE_CANNONS{
-      joyButton:i=1
-    }
-
     ID_FIRE_GM_SECONDARY_GUN{
       mouseButton:i=4
     }
+  
 
-    ID_FIRE_GM_SPECIAL_GUN{
-      keyboardKey:i=19
-    }
-
-    ID_FIRE_MGUNS{
-      mouseButton:i=0
-    }
-
-    ID_FIRE_MGUNS{
-      keyboardKey:i=2
-    }
-
-    ID_FIRE_MGUNS{
-      joyButton:i=0
-    }
-
-    ID_FLAPS_DOWN{
-      keyboardKey:i=27
-    }
-
-    ID_FLAPS_DOWN{
-      joyButton:i=10
-    }
-
-    ID_FLAPS_UP{
-      keyboardKey:i=26
-    }
-
-    ID_FLAPS_UP{
-      joyButton:i=11
-    }
 
     ID_FLIGHTMENU{
       keyboardKey:i=1
-    }
-
-    ID_FLIGHTMENU_SETUP{}
-    ID_LOCK_TARGET{
-      keyboardKey:i=45
     }
 
     ID_PTT{
       keyboardKey:i=41
     }
 
-    ID_RANGEFINDER{
+     ID_RANGEFINDER{
       keyboardKey:i=46
-    }
-
-    ID_REPLAY_CAMERA_GUN{
-      keyboardKey:i=62
-    }
-
-    ID_REPLAY_FASTER{
-      keyboardKey:i=201
-    }
-
-    ID_REPLAY_FASTER{
-      keyboardKey:i=205
-    }
-
-    ID_REPLAY_SLOWER{
-      keyboardKey:i=209
-    }
-
-    ID_REPLAY_SLOWER{
-      keyboardKey:i=203
-    }
-
-    ID_ROCKETS{
-      keyboardKey:i=5
-    }
-
-    ID_ROCKETS{
-      mouseButton:i=4
-    }
-
-    ID_ROCKETS{
-      joyButton:i=2
     }
 
     ID_SCREENSHOT{
@@ -159,165 +54,20 @@ controls{
       keyboardKey:i=3
     }
 
-    ID_SHORT_BRAKE{
-      keyboardKey:i=19
-    }
-
-    ID_SQUAD_TARGET_DESIGNATION{
+      ID_SQUAD_TARGET_DESIGNATION{
       mouseButton:i=2
     }
 
-    ID_TOGGLE_FOLLOWING_CAMERA{
-      keyboardKey:i=60
-    }
-
-    ID_TRIM{
-      keyboardKey:i=201
-    }
-
-    ID_TRIM{
-      keyboardKey:i=20
-    }
-
-    ID_TRIM{
-      joyButton:i=7
-    }
-
-    ID_TRIM_RESET{
-      keyboardKey:i=42
-      keyboardKey:i=20
-    }
-
-    ID_TRIM_SAVE{
-      joyButton:i=6
-    }
-
-    ID_ZOOM_TOGGLE{
-      keyboardKey:i=44
-    }
-
-    ID_ZOOM_TOGGLE{
-      joyButton:i=4
-    }
-
-    ailerons_rangeMax{}
-    ailerons_rangeMin{}
-    camx_rangeSet{
-      joyButton:i=5
-    }
-
-    camy_rangeSet{
-      joyButton:i=5
-    }
-
-    elevator_rangeMax{}
-    elevator_rangeMin{}
-    gm_sight_distance_rangeMax{
-      keyboardKey:i=200
-    }
-
-    gm_sight_distance_rangeMin{
-      keyboardKey:i=208
-    }
-
-    gm_sight_distance_rangeSet{
-      keyboardKey:i=205
-    }
-
-    gm_sight_distance_rangeSet{
-      keyboardKey:i=203
-    }
-
-    gm_steering_rangeMax{
-      keyboardKey:i=30
-    }
-
-    gm_steering_rangeMin{
-      keyboardKey:i=32
-    }
-
-    gm_throttle_rangeMax{
-      keyboardKey:i=17
-    }
-
-    gm_throttle_rangeMin{
-      keyboardKey:i=31
-    }
-
-    rudder_rangeMax{}
-    rudder_rangeMin{}
-    throttle_rangeMax{}
-    throttle_rangeMin{}
-    turret_x_rangeSet{
-      joyButton:i=5
-    }
-
-    turret_y_rangeSet{
-      joyButton:i=5
-    }
   }
 
   axes{
-    ailerons{
-      axisId:i=0
+    gm_sight_distance{
+      mouseAxisId:i=3
+      relSens:r=1
+    }
+
+    gm_zoom{
       mouseAxisId:i=-1
-      innerDeadzone:r=0.1
-      nonlinearity:r=0
-    }
-
-    camx{
-      axisId:i=4
-      innerDeadzone:r=0.25
-      nonlinearity:r=1
-      kMul:r=2
-      relSens:r=0.64
-      relStep:r=0
-    }
-
-    camy{
-      axisId:i=5
-      innerDeadzone:r=0.25
-      nonlinearity:r=1
-      kMul:r=2
-      relSens:r=0.64
-      relStep:r=0
-    }
-
-    elevator{
-      axisId:i=1
-      mouseAxisId:i=-1
-      innerDeadzone:r=0.1
-      nonlinearity:r=1.5
-    }
-
-    rudder{
-      axisId:i=2
-      innerDeadzone:r=0.1
-      nonlinearity:r=1.5
-    }
-
-    throttle{
-      axisId:i=3
-      innerDeadzone:r=0
-      inverse:b=yes
-      kMul:r=1.99
-      relative:b=no
-    }
-
-    turret_x{
-      axisId:i=4
-      innerDeadzone:r=0.25
-      nonlinearity:i=1
-      relSens:r=0.75
-      relative:b=yes
-    }
-
-    turret_y{
-      axisId:i=5
-      innerDeadzone:r=0.25
-      nonlinearity:i=1
-      relSens:r=0.75
-      relative:b=yes
     }
   }
 
@@ -326,7 +76,7 @@ controls{
     USEROPT_ATGM_AIM_SENS_HELICOPTER:i=100
     USEROPT_ATGM_AIM_ZOOM_SENS_HELICOPTER:i=100
     USEROPT_AUTOMATIC_TRANSMISSION_TANK:b=yes
-    USEROPT_AUTOTRIM:b=no
+    USEROPT_AUTOTRIM:b=yes
     USEROPT_ELEVATOR_MULTIPLIER:i=0
     USEROPT_FIX_GUN_IN_MOUSE_LOOK:b=yes
     USEROPT_FORCE_GAIN:i=50
@@ -338,8 +88,8 @@ controls{
     USEROPT_HEADTRACK_ENABLE:b=no
     USEROPT_HEADTRACK_SCALE_X:i=5
     USEROPT_HEADTRACK_SCALE_Y:i=5
-    USEROPT_HELPERS_MODE:i=3
-    USEROPT_INSTRUCTOR_ENABLED:b=no
+    USEROPT_HELPERS_MODE:i=0
+    USEROPT_INSTRUCTOR_ENABLED:b=yes
     USEROPT_INSTRUCTOR_ENGINE_CONTROL:b=yes
     USEROPT_INSTRUCTOR_FLAPS_CONTROL:b=yes
     USEROPT_INSTRUCTOR_GEAR_CONTROL:b=yes
@@ -358,8 +108,8 @@ controls{
     USEROPT_MOUSE_AIM_SENSE:i=25
     USEROPT_MOUSE_SENSE:i=25
     USEROPT_MOUSE_SMOOTH:b=no
-    USEROPT_MOUSE_USAGE:i=0
-    USEROPT_MOUSE_USAGE_NO_AIM:i=0
+    USEROPT_MOUSE_USAGE:i=1
+    USEROPT_MOUSE_USAGE_NO_AIM:i=1
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=0
     USEROPT_SEPERATED_ENGINE_CONTROL_SHIP:b=no
@@ -367,20 +117,9 @@ controls{
     USEROPT_SINGLE_SHOT_BY_TURRET:b=yes
     USEROPT_WHEEL_CONTROL_SHIP:b=no
     USEROPT_ZOOM_SENSE:i=100
-    mouseJoystick:b=no
   }
 
-  deviceMapping{
-    joystick{
-      connected:b=no
-      devId:t="046D:C215"
-      axesOffset:i=0
-      name:t="Extreme 3D pro"
-      buttonsOffset:i=0
-      buttonsCount:i=12
-      axesCount:i=6
-    }
-  }
+  deviceMapping{}
 }
 
 settings{
