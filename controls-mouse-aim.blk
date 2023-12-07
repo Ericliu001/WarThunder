@@ -218,6 +218,8 @@ controls{
     USEROPT_WHEEL_CONTROL_SHIP:b=no
     mouseJoystick:b=no
   }
+
+  deviceMapping{}
 }
 
 settings{
