@@ -34,6 +34,14 @@ controls{
       mouseButton:i=1
     }
 
+    ID_CAMERA_TPS{
+      keyboardKey:i=61
+    }
+
+    ID_CAMERA_TPS{
+      keyboardKey:i=59
+    }
+
     ID_CONTINUE{
       keyboardKey:i=57
     }
@@ -82,6 +90,10 @@ controls{
 
     ID_GUIDED_BOMBS{
       keyboardKey:i=4
+    }
+
+    ID_HELP{
+      keyboardKey:i=999
     }
 
     ID_PTT{
