@@ -6,6 +6,10 @@ controls{
   }
 
   hotkeys{
+    ID_BAY_DOOR{
+      keyboardKey:i=48
+    }
+
     ID_BOMBS{
       keyboardKey:i=57
     }
@@ -50,6 +54,10 @@ controls{
       mouseButton:i=4
     }
 
+    ID_FIRE_GM_SECONDARY_GUN{
+      keyboardKey:i=19
+    }
+
     ID_FLAPS_DOWN{
       keyboardKey:i=27
     }
@@ -87,6 +95,22 @@ controls{
       keyboardKey:i=46
     }
 
+    ID_REPLAY_FASTER{
+      keyboardKey:i=201
+    }
+
+    ID_REPLAY_FASTER{
+      keyboardKey:i=205
+    }
+
+    ID_REPLAY_SLOWER{
+      keyboardKey:i=209
+    }
+
+    ID_REPLAY_SLOWER{
+      keyboardKey:i=203
+    }
+
     ID_ROCKETS{
       keyboardKey:i=5
     }
@@ -112,6 +136,11 @@ controls{
 
     ID_SELECT_GM_GUN_RESET{
       mouseButton:i=3
+    }
+
+    ID_SELECT_GM_GUN_RESET{
+      keyboardKey:i=29
+      keyboardKey:i=5
     }
 
     ID_SELECT_GM_GUN_SECONDARY{
