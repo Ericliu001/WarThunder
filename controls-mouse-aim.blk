@@ -14,10 +14,6 @@ controls{
       keyboardKey:i=57
     }
 
-    ID_BOMBS{
-      keyboardKey:i=4
-    }
-
     ID_CAMERA_DEFAULT{
       keyboardKey:i=63
     }
@@ -50,10 +46,7 @@ controls{
       joyButton:i=24
     }
 
-    ID_FIRE_CANNONS{
-      mouseButton:i=0
-    }
-
+    ID_FIRE_ADDITIONAL_GUNS{}
     ID_FIRE_GM_SECONDARY_GUN{
       mouseButton:i=4
     }
