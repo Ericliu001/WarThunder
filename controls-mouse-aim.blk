@@ -54,7 +54,30 @@ controls{
       joyButton:i=24
     }
 
-    ID_FIRE_ADDITIONAL_GUNS{}
+    ID_FIRE_ADDITIONAL_GUNS{
+      mouseButton:i=0
+    }
+
+    ID_FIRE_ADDITIONAL_GUNS{
+      keyboardKey:i=4
+    }
+
+    ID_FIRE_ADDITIONAL_GUNS{
+      keyboardKey:i=2
+    }
+
+    ID_FIRE_CANNONS{
+      mouseButton:i=0
+    }
+
+    ID_FIRE_CANNONS{
+      keyboardKey:i=3
+    }
+
+    ID_FIRE_CANNONS{
+      keyboardKey:i=19
+    }
+
     ID_FIRE_GM_SECONDARY_GUN{
       mouseButton:i=4
     }
@@ -88,10 +111,6 @@ controls{
       keyboardKey:i=57
     }
 
-    ID_GUIDED_BOMBS{
-      keyboardKey:i=4
-    }
-
     ID_HELP{
       keyboardKey:i=999
     }
@@ -104,6 +123,7 @@ controls{
       keyboardKey:i=46
     }
 
+    ID_RELOAD_GUNS{}
     ID_REPLAY_FASTER{
       keyboardKey:i=201
     }
@@ -167,6 +187,10 @@ controls{
 
     ID_TARGET_CAMERA{}
     ID_TOGGLE_VIEW{}
+    ID_VOICE_MESSAGE_3{
+      keyboardKey:i=81
+    }
+
     elevator_rangeMax{
       keyboardKey:i=17
     }
