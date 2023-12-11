@@ -188,6 +188,10 @@ controls{
     ID_TARGET_CAMERA{}
     ID_TOGGLE_VIEW{}
     ID_VOICE_MESSAGE_3{
+      keyboardKey:i=4
+    }
+
+    ID_VOICE_MESSAGE_3{
       keyboardKey:i=81
     }
 
