@@ -82,6 +82,18 @@ controls{
       keyboardKey:i=19
     }
 
+    ID_FIRE_MGUNS{
+      mouseButton:i=0
+    }
+
+    ID_FIRE_MGUNS{
+      keyboardKey:i=2
+    }
+
+    ID_FIRE_MGUNS{
+      keyboardKey:i=47
+    }
+
     ID_FLAPS_DOWN{
       keyboardKey:i=27
     }
@@ -140,10 +152,6 @@ controls{
       keyboardKey:i=5
     }
 
-    ID_ROCKETS{
-      keyboardKey:i=47
-    }
-
     ID_SCREENSHOT{
       keyboardKey:i=42
       keyboardKey:i=183
@@ -193,6 +201,10 @@ controls{
 
     elevator_rangeMin{
       keyboardKey:i=31
+    }
+
+    gm_sight_distance_rangeSet{
+      mouseButton:i=3
     }
   }
 
@@ -244,7 +256,17 @@ controls{
     mouseJoystick:b=no
   }
 
-  deviceMapping{}
+  deviceMapping{
+    joystick{
+      connected:b=yes
+      devId:t="046D:C215"
+      axesOffset:i=0
+      name:t="Extreme 3D pro"
+      buttonsOffset:i=0
+      buttonsCount:i=12
+      axesCount:i=6
+    }
+  }
 }
 
 settings{
