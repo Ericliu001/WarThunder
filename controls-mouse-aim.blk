@@ -258,7 +258,7 @@ controls{
 
   deviceMapping{
     joystick{
-      connected:b=yes
+      connected:b=no
       devId:t="046D:C215"
       axesOffset:i=0
       name:t="Extreme 3D pro"
