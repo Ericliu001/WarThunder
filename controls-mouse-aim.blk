@@ -54,6 +54,26 @@ controls{
       joyButton:i=24
     }
 
+    ID_FAST_VOICE_MESSAGE_1{
+      keyboardKey:i=219
+      keyboardKey:i=2
+    }
+
+    ID_FAST_VOICE_MESSAGE_2{
+      keyboardKey:i=219
+      keyboardKey:i=3
+    }
+
+    ID_FAST_VOICE_MESSAGE_3{
+      keyboardKey:i=219
+      keyboardKey:i=4
+    }
+
+    ID_FAST_VOICE_MESSAGE_4{
+      keyboardKey:i=219
+      keyboardKey:i=5
+    }
+
     ID_FIRE_ADDITIONAL_GUNS{
       mouseButton:i=0
     }
@@ -123,10 +143,7 @@ controls{
       keyboardKey:i=999
     }
 
-    ID_PTT{
-      keyboardKey:i=41
-    }
-
+    ID_PTT{}
     ID_RANGEFINDER{
       keyboardKey:i=46
     }
@@ -187,6 +204,10 @@ controls{
 
     ID_SQUAD_TARGET_DESIGNATION{
       mouseButton:i=2
+    }
+
+    ID_TANK_NIGHT_VISION{
+      keyboardKey:i=41
     }
 
     ID_TARGETING_HOLD_HUMAN{
