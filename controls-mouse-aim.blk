@@ -54,6 +54,7 @@ controls{
       joyButton:i=24
     }
 
+    ID_EXIT_SHOOTING_CYCLE_MODE{}
     ID_FAST_VOICE_MESSAGE_1{
       keyboardKey:i=219
       keyboardKey:i=2
@@ -165,6 +166,7 @@ controls{
       keyboardKey:i=203
     }
 
+    ID_RESIZE_SECONDARY_WEAPON_SERIES{}
     ID_ROCKETS{
       keyboardKey:i=5
     }
@@ -206,6 +208,8 @@ controls{
       mouseButton:i=2
     }
 
+    ID_SWITCH_SHOOTING_CYCLE_PRIMARY{}
+    ID_SWITCH_SHOOTING_CYCLE_SECONDARY{}
     ID_TANK_NIGHT_VISION{
       keyboardKey:i=41
     }
@@ -227,6 +231,9 @@ controls{
     gm_sight_distance_rangeSet{
       mouseButton:i=3
     }
+
+    throttle_rangeMax{}
+    throttle_rangeMin{}
   }
 
   axes{
