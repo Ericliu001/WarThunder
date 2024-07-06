@@ -6,12 +6,17 @@ controls{
   }
 
   hotkeys{
+    ID_AGM{}
+    ID_AIR_BRAKE{
+      keyboardKey:i=34
+    }
+
     ID_BAY_DOOR{
       keyboardKey:i=48
     }
 
     ID_BOMBS{
-      keyboardKey:i=57
+      keyboardKey:i=47
     }
 
     ID_CAMERA_DEFAULT{
@@ -112,9 +117,10 @@ controls{
     }
 
     ID_FIRE_MGUNS{
-      keyboardKey:i=47
+      keyboardKey:i=57
     }
 
+    ID_FIRE_SECONDARY{}
     ID_FLAPS_DOWN{
       keyboardKey:i=27
     }
@@ -135,6 +141,11 @@ controls{
       keyboardKey:i=1
     }
 
+    ID_GEAR{
+      keyboardKey:i=219
+      keyboardKey:i=34
+    }
+
     ID_GUIDED_BOMBS{
       keyboardKey:i=56
       keyboardKey:i=57
@@ -142,6 +153,10 @@ controls{
 
     ID_HELP{
       keyboardKey:i=999
+    }
+
+    ID_LOCK_TARGET{
+      keyboardKey:i=45
     }
 
     ID_PTT{}
@@ -218,7 +233,10 @@ controls{
       joyButton:i=28
     }
 
-    ID_TARGET_CAMERA{}
+    ID_TARGET_CAMERA{
+      mouseButton:i=2
+    }
+
     ID_TOGGLE_VIEW{}
     elevator_rangeMax{
       keyboardKey:i=17
