@@ -85,6 +85,16 @@ controls{
       keyboardKey:i=5
     }
 
+    ID_FAST_VOICE_MESSAGE_5{
+      keyboardKey:i=219
+      keyboardKey:i=6
+    }
+
+    ID_FAST_VOICE_MESSAGE_6{
+      keyboardKey:i=219
+      keyboardKey:i=7
+    }
+
     ID_FIRE_ADDITIONAL_GUNS{
       mouseButton:i=0
     }
