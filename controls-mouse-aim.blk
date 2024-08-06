@@ -103,6 +103,10 @@ controls{
       keyboardKey:i=4
     }
 
+    ID_FIRE_ADDITIONAL_GUNS{
+      keyboardKey:i=47
+    }
+
     ID_FIRE_CANNONS{
       mouseButton:i=0
     }
@@ -204,6 +208,10 @@ controls{
     ID_SCREENSHOT{
       keyboardKey:i=42
       keyboardKey:i=183
+    }
+
+    ID_SCREENSHOT{
+      keyboardKey:i=88
     }
 
     ID_SELECT_GM_GUN_MACHINEGUN{
