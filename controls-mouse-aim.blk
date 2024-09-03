@@ -64,6 +64,14 @@ controls{
       joyButton:i=24
     }
 
+    ID_COUNTERMEASURES_CHAFF{
+      keyboardKey:i=46
+    }
+
+    ID_COUNTERMEASURES_FLARES{
+      keyboardKey:i=33
+    }
+
     ID_EXIT_SHOOTING_CYCLE_MODE{}
     ID_FAST_VOICE_MESSAGE_1{
       keyboardKey:i=219
@@ -140,6 +148,7 @@ controls{
     }
 
     ID_FIRE_SECONDARY{}
+    ID_FLAPS{}
     ID_FLAPS_DOWN{
       keyboardKey:i=27
     }
@@ -172,6 +181,11 @@ controls{
 
     ID_HELP{
       keyboardKey:i=999
+    }
+
+    ID_IGNITE_BOOSTERS{
+      keyboardKey:i=219
+      keyboardKey:i=48
     }
 
     ID_LOCK_TARGET{
