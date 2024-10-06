@@ -6,6 +6,10 @@ controls{
   }
 
   hotkeys{
+    ID_AAM{
+      keyboardKey:i=2
+    }
+
     ID_AGM{}
     ID_AIR_BRAKE{
       keyboardKey:i=34
@@ -137,10 +141,6 @@ controls{
 
     ID_FIRE_MGUNS{
       mouseButton:i=0
-    }
-
-    ID_FIRE_MGUNS{
-      keyboardKey:i=2
     }
 
     ID_FIRE_MGUNS{
@@ -277,6 +277,16 @@ controls{
     ID_TOGGLE_VIEW{}
     ID_TOGGLE_VIEW{
       keyboardKey:i=59
+    }
+
+    ID_WEAPON_LOCK{
+      keyboardKey:i=45
+      keyboardKey:i=56
+    }
+
+    ID_WEAPON_LOCK{
+      keyboardKey:i=219
+      keyboardKey:i=45
     }
 
     elevator_rangeMax{
