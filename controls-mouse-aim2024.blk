@@ -76,7 +76,10 @@ controls{
       keyboardKey:i=33
     }
 
-    ID_EXIT_SHOOTING_CYCLE_MODE{}
+    ID_EXIT_SHOOTING_CYCLE_MODE{
+      keyboardKey:i=29
+    }
+
     ID_FAST_VOICE_MESSAGE_1{
       keyboardKey:i=219
       keyboardKey:i=2
@@ -265,9 +268,14 @@ controls{
       mouseButton:i=4
     }
 
-    ID_SENSOR_MODE_SWITCH{
-      keyboardKey:i=56
-      keyboardKey:i=48
+    ID_SENSOR_ACM_SWITCH{
+      keyboardKey:i=219
+      keyboardKey:i=46
+    }
+
+    ID_SENSOR_ACM_SWITCH_TANK{
+      keyboardKey:i=219
+      keyboardKey:i=46
     }
 
     ID_SENSOR_MODE_SWITCH{
@@ -278,6 +286,31 @@ controls{
     ID_SENSOR_SWITCH{
       keyboardKey:i=56
       keyboardKey:i=19
+    }
+
+    ID_SENSOR_SWITCH_TANK{
+      keyboardKey:i=219
+      keyboardKey:i=19
+    }
+
+    ID_SENSOR_TARGET_LOCK{
+      keyboardKey:i=219
+      keyboardKey:i=33
+    }
+
+    ID_SENSOR_TARGET_LOCK_TANK{
+      keyboardKey:i=219
+      keyboardKey:i=33
+    }
+
+    ID_SENSOR_TARGET_SWITCH{
+      keyboardKey:i=219
+      keyboardKey:i=20
+    }
+
+    ID_SENSOR_TARGET_SWITCH_TANK{
+      keyboardKey:i=219
+      keyboardKey:i=20
     }
 
     ID_SQUAD_TARGET_DESIGNATION{
