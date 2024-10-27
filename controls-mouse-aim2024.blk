@@ -56,6 +56,11 @@ controls{
       keyboardKey:i=62
     }
 
+    ID_CHUTE{
+      keyboardKey:i=56
+      keyboardKey:i=44
+    }
+
     ID_CONTINUE{
       keyboardKey:i=57
     }
@@ -187,6 +192,7 @@ controls{
       keyboardKey:i=999
     }
 
+    ID_HIDE_HUD{}
     ID_IGNITE_BOOSTERS{
       keyboardKey:i=219
       keyboardKey:i=48
@@ -338,6 +344,7 @@ controls{
 
     ID_TOGGLE_CHAT_MODE{
       keyboardKey:i=54
+      keyboardKey:i=43
     }
 
     ID_TOGGLE_VIEW{}
