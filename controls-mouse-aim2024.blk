@@ -27,20 +27,16 @@ controls{
       keyboardKey:i=64
     }
 
+    ID_CAMERA_COMMANDER{
+      keyboardKey:i=41
+    }
+
     ID_CAMERA_DEFAULT{
       keyboardKey:i=42
     }
 
     ID_CAMERA_GUNNER{
       keyboardKey:i=63
-    }
-
-    ID_CAMERA_NEUTRAL{
-      keyboardKey:i=46
-    }
-
-    ID_CAMERA_NEUTRAL{
-      keyboardKey:i=83
     }
 
     ID_CAMERA_NEUTRAL{
@@ -59,6 +55,11 @@ controls{
     ID_CHUTE{
       keyboardKey:i=56
       keyboardKey:i=44
+    }
+
+    ID_COMMANDER_AIM_MODE{
+      keyboardKey:i=219
+      keyboardKey:i=41
     }
 
     ID_CONTINUE{
@@ -198,6 +199,11 @@ controls{
       keyboardKey:i=48
     }
 
+    ID_IRCM_SWITCH_TANK{
+      keyboardKey:i=56
+      keyboardKey:i=19
+    }
+
     ID_LOCK_TARGET{
       keyboardKey:i=45
     }
@@ -331,9 +337,10 @@ controls{
     }
 
     ID_TANK_NIGHT_VISION{
-      keyboardKey:i=41
+      keyboardKey:i=29
     }
 
+    ID_TARGETING_HOLD_GM{}
     ID_TARGETING_HOLD_HUMAN{
       joyButton:i=28
     }
@@ -343,7 +350,6 @@ controls{
     }
 
     ID_TOGGLE_CHAT_MODE{
-      keyboardKey:i=54
       keyboardKey:i=43
     }
 
