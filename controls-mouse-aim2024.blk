@@ -253,6 +253,11 @@ controls{
       keyboardKey:i=88
     }
 
+    ID_SCREENSHOT_WO_HUD{
+      keyboardKey:i=54
+      keyboardKey:i=88
+    }
+
     ID_SELECT_GM_GUN_MACHINEGUN{
       keyboardKey:i=29
       keyboardKey:i=4
