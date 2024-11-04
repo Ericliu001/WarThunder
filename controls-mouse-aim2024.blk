@@ -28,6 +28,10 @@ controls{
       keyboardKey:i=47
     }
 
+    ID_BOMBS_SERIES{
+      keyboardKey:i=6
+    }
+
     ID_CAMERA_BOMBVIEW{
       keyboardKey:i=64
     }
