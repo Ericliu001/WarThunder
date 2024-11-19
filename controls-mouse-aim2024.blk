@@ -7,12 +7,7 @@ controls{
 
   hotkeys{
     ID_AAM{
-      keyboardKey:i=2
-    }
-
-    ID_AAM{
-      keyboardKey:i=56
-      keyboardKey:i=219
+      keyboardKey:i=57
     }
 
     ID_AGM{}
@@ -61,11 +56,7 @@ controls{
       keyboardKey:i=62
     }
 
-    ID_CHUTE{
-      keyboardKey:i=56
-      keyboardKey:i=44
-    }
-
+    ID_CHUTE{}
     ID_COMMANDER_AIM_MODE{
       keyboardKey:i=219
       keyboardKey:i=41
@@ -297,7 +288,7 @@ controls{
 
     ID_SENSOR_RANGE_SWITCH{
       keyboardKey:i=219
-      keyboardKey:i=45
+      keyboardKey:i=20
     }
 
     ID_SENSOR_SWITCH{
@@ -322,7 +313,7 @@ controls{
 
     ID_SENSOR_TARGET_SWITCH{
       keyboardKey:i=219
-      keyboardKey:i=20
+      keyboardKey:i=45
     }
 
     ID_SENSOR_TARGET_SWITCH_TANK{
