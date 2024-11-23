@@ -2,7 +2,7 @@ controls{
   version:i=5
 
   basePresetPaths{
-    default:t="wt/config/hotkeys/hotkey.keyboard_ver1.blk"
+    default:t="config/hotkeys/hotkey.keyboard_ver1.blk"
   }
 
   hotkeys{
@@ -289,6 +289,11 @@ controls{
     ID_SENSOR_RANGE_SWITCH{
       keyboardKey:i=219
       keyboardKey:i=20
+    }
+
+    ID_SENSOR_SCAN_PATTERN_SWITCH{
+      keyboardKey:i=56
+      keyboardKey:i=44
     }
 
     ID_SENSOR_SWITCH{
