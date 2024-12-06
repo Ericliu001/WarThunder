@@ -144,6 +144,10 @@ controls{
 
     ID_FIRE_SECONDARY{}
     ID_FLAPS{}
+    ID_FLAPS{
+      keyboardKey:i=11
+    }
+
     ID_FLAPS_DOWN{
       keyboardKey:i=27
     }
