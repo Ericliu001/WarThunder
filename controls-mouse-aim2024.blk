@@ -233,6 +233,10 @@ controls{
       keyboardKey:i=5
     }
 
+    ID_ROCKETS_SERIES{
+      keyboardKey:i=5
+    }
+
     ID_SCREENSHOT{
       keyboardKey:i=42
       keyboardKey:i=183
