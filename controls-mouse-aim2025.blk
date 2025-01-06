@@ -410,6 +410,14 @@ controls{
       mouseButton:i=3
     }
 
+    gm_steering_rangeMax{
+      keyboardKey:i=30
+    }
+
+    gm_steering_rangeMin{
+      keyboardKey:i=32
+    }
+
     gm_throttle_rangeMax{
       keyboardKey:i=17
     }
