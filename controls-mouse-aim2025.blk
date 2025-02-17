@@ -62,6 +62,10 @@ controls{
       keyboardKey:i=29
     }
 
+    ID_COMPLEX_ENGINE{
+      keyboardKey:i=14
+    }
+
     ID_CONTINUE{
       keyboardKey:i=57
     }
@@ -149,15 +153,7 @@ controls{
     }
 
     ID_FLAPS_DOWN{
-      keyboardKey:i=27
-    }
-
-    ID_FLAPS_DOWN{
       mouseButton:i=4
-    }
-
-    ID_FLAPS_UP{
-      keyboardKey:i=26
     }
 
     ID_FLAPS_UP{
@@ -206,7 +202,17 @@ controls{
       keyboardKey:i=49
     }
 
+    ID_PROP_PITCH_AUTO{
+      keyboardKey:i=54
+      keyboardKey:i=43
+    }
+
     ID_PTT{}
+    ID_RADIATOR_AUTO{
+      keyboardKey:i=54
+      keyboardKey:i=53
+    }
+
     ID_RANGEFINDER{
       keyboardKey:i=46
     }
@@ -398,6 +404,14 @@ controls{
       keyboardKey:i=29
     }
 
+    ailerons_rangeMax{
+      keyboardKey:i=32
+    }
+
+    ailerons_rangeMin{
+      keyboardKey:i=30
+    }
+
     elevator_rangeMax{
       keyboardKey:i=17
     }
@@ -434,6 +448,32 @@ controls{
       keyboardKey:i=31
     }
 
+    oil_radiator_rangeMax{
+      keyboardKey:i=54
+      keyboardKey:i=205
+    }
+
+    oil_radiator_rangeMin{
+      keyboardKey:i=54
+      keyboardKey:i=203
+    }
+
+    prop_pitch_rangeMax{
+      keyboardKey:i=200
+    }
+
+    prop_pitch_rangeMin{
+      keyboardKey:i=208
+    }
+
+    radiator_rangeMax{
+      keyboardKey:i=205
+    }
+
+    radiator_rangeMin{
+      keyboardKey:i=203
+    }
+
     throttle_rangeMax{}
     throttle_rangeMin{}
   }
@@ -456,6 +496,19 @@ controls{
 
     gm_zoom{
       mouseAxisId:i=-1
+    }
+
+    oil_radiator{
+      relative:b=yes
+    }
+
+    prop_pitch{
+      innerDeadzone:r=0.05
+      relative:b=yes
+    }
+
+    radiator{
+      relative:b=yes
     }
   }
 
