@@ -32,7 +32,7 @@ controls{
     }
 
     ID_CAMERA_COMMANDER{
-      keyboardKey:i=29
+      keyboardKey:i=60
     }
 
     ID_CAMERA_DEFAULT{
@@ -58,8 +58,7 @@ controls{
 
     ID_CHUTE{}
     ID_COMMANDER_AIM_MODE{
-      keyboardKey:i=219
-      keyboardKey:i=29
+      keyboardKey:i=59
     }
 
     ID_COMPLEX_ENGINE{
@@ -116,6 +115,10 @@ controls{
 
     ID_FIRE_ADDITIONAL_GUNS{
       keyboardKey:i=4
+    }
+
+    ID_FIRE_ADDITIONAL_GUNS{
+      keyboardKey:i=19
     }
 
     ID_FIRE_CANNONS{
@@ -348,6 +351,16 @@ controls{
       keyboardKey:i=12
     }
 
+    ID_SUSPENSION_CLEARANCE_DOWN{
+      keyboardKey:i=54
+      keyboardKey:i=200
+    }
+
+    ID_SUSPENSION_CLEARANCE_UP{
+      keyboardKey:i=54
+      keyboardKey:i=208
+    }
+
     ID_SUSPENSION_PITCH_DOWN{
       keyboardKey:i=200
     }
@@ -548,6 +561,7 @@ controls{
     USEROPT_FREE_CAMERA_ZOOM_SPEED:i=50
     USEROPT_GUNNER_VIEW_SENSE:i=100
     USEROPT_GUNNER_VIEW_ZOOM_SENS:i=100
+    USEROPT_HOLD_BUTTON_FOR_TACTICAL_MAP:b=yes
     USEROPT_INSTRUCTOR_FLAPS_CONTROL:b=no
     USEROPT_INSTRUCTOR_GEAR_CONTROL:b=no
     USEROPT_INSTRUCTOR_GROUND_AVOIDANCE:b=no
@@ -627,7 +641,7 @@ settings{
   aimAccelerationDelaySubmarine:r=0.5
   mouseZMultAir:r=1
   mouseZMultHelicopter:r=0.5
-  mouseZMultTank:r=0.5
+  mouseZMultTank:r=0.4
   mouseZMultShip:r=0.5
   mouseZMultSubmarine:r=0.5
   gamepadMinVibration:r=0.05
