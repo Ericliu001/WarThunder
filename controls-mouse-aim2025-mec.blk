@@ -117,10 +117,6 @@ controls{
       keyboardKey:i=4
     }
 
-    ID_FIRE_ADDITIONAL_GUNS{
-      keyboardKey:i=19
-    }
-
     ID_FIRE_CANNONS{
       mouseButton:i=0
     }
