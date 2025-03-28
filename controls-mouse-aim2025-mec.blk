@@ -11,6 +11,10 @@ controls{
     }
 
     ID_AGM{}
+    ID_AGM{
+      keyboardKey:i=2
+    }
+
     ID_AIR_BRAKE{
       keyboardKey:i=34
     }
@@ -119,10 +123,6 @@ controls{
 
     ID_FIRE_CANNONS{
       mouseButton:i=0
-    }
-
-    ID_FIRE_CANNONS{
-      keyboardKey:i=3
     }
 
     ID_FIRE_CANNONS{
