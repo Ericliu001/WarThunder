@@ -82,7 +82,7 @@ controls{
     }
 
     ID_COUNTERMEASURES_CHAFF{
-      keyboardKey:i=46
+      mouseButton:i=2
     }
 
     ID_COUNTERMEASURES_FLARES{
@@ -397,7 +397,7 @@ controls{
     }
 
     ID_TARGET_CAMERA{
-      mouseButton:i=2
+      keyboardKey:i=46
     }
 
     ID_TARGET_CAMERA_HELICOPTER{
@@ -631,7 +631,7 @@ settings{
   aimTimeNonlinearitySubmarine:r=0
   aimAccelerationDelayAir:r=0.5
   aimAccelerationDelayHelicopter:r=0.5
-  aimAccelerationDelayTank:r=0.5
+  aimAccelerationDelayTank:r=0.4
   aimAccelerationDelayWalker:r=0.5
   aimAccelerationDelayShip:r=0.5
   aimAccelerationDelaySubmarine:r=0.5
