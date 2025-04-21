@@ -10,9 +10,12 @@ controls{
       keyboardKey:i=57
     }
 
-    ID_AGM{}
-    ID_AGM{
+    ID_AAM{
       keyboardKey:i=2
+    }
+
+    ID_AGM{
+      keyboardKey:i=3
     }
 
     ID_AIR_BRAKE{
