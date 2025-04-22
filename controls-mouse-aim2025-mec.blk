@@ -238,7 +238,7 @@ controls{
     }
 
     ID_ROCKETS_SERIES{
-      keyboardKey:i=5
+      keyboardKey:i=7
     }
 
     ID_ROCKETS_SERIES_HELICOPTER{
@@ -413,6 +413,10 @@ controls{
 
     ID_TOGGLE_CHAT_MODE{
       keyboardKey:i=43
+    }
+
+    ID_TOGGLE_EXTINGUISHER{
+      keyboardKey:i=35
     }
 
     ID_TOGGLE_FOLLOWING_CAMERA{
