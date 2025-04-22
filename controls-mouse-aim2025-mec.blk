@@ -415,6 +415,10 @@ controls{
       keyboardKey:i=43
     }
 
+    ID_TOGGLE_FOLLOWING_CAMERA{
+      keyboardKey:i=58
+    }
+
     ID_TOGGLE_PROP_FEATHERING{
       keyboardKey:i=11
     }
