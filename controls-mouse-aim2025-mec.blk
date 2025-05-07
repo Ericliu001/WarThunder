@@ -34,6 +34,10 @@ controls{
       keyboardKey:i=6
     }
 
+    ID_CAMERA_BINOCULARS{
+      keyboardKey:i=33
+    }
+
     ID_CAMERA_BOMBVIEW{
       keyboardKey:i=64
     }
@@ -216,6 +220,10 @@ controls{
     }
 
     ID_RELOAD_GUNS{}
+    ID_REPAIR_TANK{
+      keyboardKey:i=22
+    }
+
     ID_REPLAY_FASTER{
       keyboardKey:i=201
     }
@@ -340,6 +348,10 @@ controls{
     ID_SENSOR_TARGET_SWITCH_TANK{
       keyboardKey:i=219
       keyboardKey:i=20
+    }
+
+    ID_SHORT_BRAKE{
+      keyboardKey:i=48
     }
 
     ID_SQUAD_TARGET_DESIGNATION{
