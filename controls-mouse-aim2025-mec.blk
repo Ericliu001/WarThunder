@@ -35,7 +35,7 @@ controls{
     }
 
     ID_CAMERA_BINOCULARS{
-      keyboardKey:i=33
+      keyboardKey:i=44
     }
 
     ID_CAMERA_BOMBVIEW{
@@ -126,6 +126,10 @@ controls{
 
     ID_FIRE_ADDITIONAL_GUNS{
       keyboardKey:i=4
+    }
+
+    ID_FIRE_ADDITIONAL_GUNS{
+      keyboardKey:i=44
     }
 
     ID_FIRE_CANNONS{
@@ -446,6 +450,10 @@ controls{
 
     ID_WEAPON_LOCK{
       keyboardKey:i=29
+    }
+
+    ID_ZOOM_TOGGLE{
+      keyboardKey:i=33
     }
 
     ailerons_rangeMax{
