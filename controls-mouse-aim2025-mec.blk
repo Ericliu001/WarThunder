@@ -89,11 +89,11 @@ controls{
     }
 
     ID_COUNTERMEASURES_CHAFF{
-      mouseButton:i=2
+      keyboardKey:i=48
     }
 
     ID_COUNTERMEASURES_FLARES{
-      keyboardKey:i=33
+      keyboardKey:i=44
     }
 
     ID_EXIT_SHOOTING_CYCLE_MODE{
