@@ -14,6 +14,10 @@ controls{
       keyboardKey:i=2
     }
 
+    ID_ACTION_BAR_ITEM_6{
+      keyboardKey:i=8
+    }
+
     ID_AGM{
       keyboardKey:i=3
     }
@@ -23,6 +27,7 @@ controls{
     }
 
     ID_BAY_DOOR{
+      keyboardKey:i=42
       keyboardKey:i=48
     }
 
@@ -35,7 +40,7 @@ controls{
     }
 
     ID_CAMERA_BINOCULARS{
-      keyboardKey:i=44
+      keyboardKey:i=34
     }
 
     ID_CAMERA_BOMBVIEW{
@@ -88,12 +93,13 @@ controls{
       joyButton:i=24
     }
 
+    ID_CONTROL_MODE_HELICOPTER{}
     ID_COUNTERMEASURES_CHAFF{
       keyboardKey:i=48
     }
 
     ID_COUNTERMEASURES_FLARES{
-      keyboardKey:i=44
+      keyboardKey:i=20
     }
 
     ID_EXIT_SHOOTING_CYCLE_MODE{
@@ -121,15 +127,11 @@ controls{
     }
 
     ID_FIRE_ADDITIONAL_GUNS{
-      mouseButton:i=0
-    }
-
-    ID_FIRE_ADDITIONAL_GUNS{
       keyboardKey:i=4
     }
 
     ID_FIRE_ADDITIONAL_GUNS{
-      keyboardKey:i=44
+      keyboardKey:i=20
     }
 
     ID_FIRE_CANNONS{
@@ -249,12 +251,20 @@ controls{
       keyboardKey:i=5
     }
 
+    ID_ROCKETS{
+      keyboardKey:i=44
+    }
+
     ID_ROCKETS_SERIES{
       keyboardKey:i=7
     }
 
     ID_ROCKETS_SERIES_HELICOPTER{
       keyboardKey:i=5
+    }
+
+    ID_SCOUT{
+      keyboardKey:i=20
     }
 
     ID_SCREENSHOT{
@@ -355,7 +365,23 @@ controls{
     }
 
     ID_SHORT_BRAKE{
+      keyboardKey:i=47
+    }
+
+    ID_SHOW_MULTIFUNC_WHEEL_MENU{
+      keyboardKey:i=35
+    }
+
+    ID_SHOW_VOICE_MESSAGE_LIST{
+      keyboardKey:i=21
+    }
+
+    ID_SMOKE_SCREEN{
       keyboardKey:i=48
+    }
+
+    ID_SMOKE_SCREEN_GENERATOR{
+      keyboardKey:i=7
     }
 
     ID_SQUAD_TARGET_DESIGNATION{
@@ -366,6 +392,8 @@ controls{
       keyboardKey:i=12
     }
 
+    ID_SUPPORT_PLANE_ORBITING{}
+    ID_SUPPORT_PLANE_ORBITING_SHIP{}
     ID_SUSPENSION_CLEARANCE_DOWN{
       keyboardKey:i=54
       keyboardKey:i=200
@@ -431,10 +459,7 @@ controls{
       keyboardKey:i=43
     }
 
-    ID_TOGGLE_EXTINGUISHER{
-      keyboardKey:i=35
-    }
-
+    ID_TOGGLE_EXTINGUISHER{}
     ID_TOGGLE_FOLLOWING_CAMERA{
       keyboardKey:i=58
     }
