@@ -27,7 +27,7 @@ controls{
     }
 
     ID_BAY_DOOR{
-      keyboardKey:i=42
+      keyboardKey:i=219
       keyboardKey:i=48
     }
 
@@ -126,8 +126,23 @@ controls{
       keyboardKey:i=5
     }
 
+    ID_FAST_VOICE_MESSAGE_5{
+      keyboardKey:i=219
+      keyboardKey:i=6
+    }
+
+    ID_FAST_VOICE_MESSAGE_6{
+      keyboardKey:i=219
+      keyboardKey:i=7
+    }
+
+    ID_FAST_VOICE_MESSAGE_7{
+      keyboardKey:i=219
+      keyboardKey:i=8
+    }
+
     ID_FIRE_ADDITIONAL_GUNS{
-      keyboardKey:i=4
+      mouseButton:i=0
     }
 
     ID_FIRE_ADDITIONAL_GUNS{
@@ -192,11 +207,6 @@ controls{
     }
 
     ID_HIDE_HUD{}
-    ID_IGNITE_BOOSTERS{
-      keyboardKey:i=219
-      keyboardKey:i=48
-    }
-
     ID_IRCM_SWITCH_TANK{
       keyboardKey:i=56
       keyboardKey:i=19
@@ -431,7 +441,7 @@ controls{
     }
 
     ID_TANK_NIGHT_VISION{
-      keyboardKey:i=41
+      keyboardKey:i=44
     }
 
     ID_TANK_SWITCH_FUSE_MODE{
@@ -447,10 +457,7 @@ controls{
       keyboardKey:i=46
     }
 
-    ID_TARGET_CAMERA_HELICOPTER{
-      mouseButton:i=2
-    }
-
+    ID_TARGET_CAMERA_HELICOPTER{}
     ID_TOGGLE_AUTO_TURBO_CHARGER{
       keyboardKey:i=13
     }
