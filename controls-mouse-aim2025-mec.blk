@@ -14,6 +14,10 @@ controls{
       keyboardKey:i=2
     }
 
+    ID_AAM{
+      keyboardKey:i=56
+    }
+
     ID_ACTION_BAR_ITEM_6{
       keyboardKey:i=8
     }
