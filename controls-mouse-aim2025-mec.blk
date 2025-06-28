@@ -175,6 +175,10 @@ controls{
 
     ID_FIRE_SECONDARY{}
     ID_FLAPS{}
+    ID_FLAPS{
+      keyboardKey:i=40
+    }
+
     ID_FLAPS_DOWN{
       mouseButton:i=4
     }
@@ -210,6 +214,10 @@ controls{
     ID_IRCM_SWITCH_TANK{
       keyboardKey:i=56
       keyboardKey:i=19
+    }
+
+    ID_JETTISON_SECONDARY{
+      keyboardKey:i=8
     }
 
     ID_LOCK_TARGET{
@@ -357,6 +365,10 @@ controls{
     ID_SENSOR_TARGET_LOCK{
       keyboardKey:i=219
       keyboardKey:i=33
+    }
+
+    ID_SENSOR_TARGET_LOCK{
+      keyboardKey:i=29
     }
 
     ID_SENSOR_TARGET_LOCK_TANK{
