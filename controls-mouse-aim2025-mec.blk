@@ -398,6 +398,7 @@ controls{
       keyboardKey:i=21
     }
 
+    ID_SHOW_VOICE_MESSAGE_LIST_SQUAD{}
     ID_SMOKE_SCREEN{
       keyboardKey:i=48
     }
@@ -479,6 +480,10 @@ controls{
     }
 
     ID_TOGGLE_EXTINGUISHER{}
+    ID_TOGGLE_EXTINGUISHER{
+      keyboardKey:i=37
+    }
+
     ID_TOGGLE_FOLLOWING_CAMERA{
       keyboardKey:i=58
     }
