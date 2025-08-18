@@ -26,6 +26,7 @@ controls{
       keyboardKey:i=34
     }
 
+    ID_ARTILLERY_CANCEL{}
     ID_BAY_DOOR{
       keyboardKey:i=219
       keyboardKey:i=48
@@ -72,6 +73,7 @@ controls{
       keyboardKey:i=62
     }
 
+    ID_CHANGE_ARTILLERY_TARGETING_MODE{}
     ID_CHUTE{}
     ID_COMMANDER_AIM_MODE{
       keyboardKey:i=59
@@ -224,6 +226,7 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_LOCK_TARGETING{}
     ID_LOCK_TARGETING_AT_POINT{}
     ID_MPSTATSCREEN{
       keyboardKey:i=49
@@ -498,6 +501,8 @@ controls{
       keyboardKey:i=59
     }
 
+    ID_UNLOCK_TARGETING{}
+    ID_UNLOCK_TARGETING_AT_POINT{}
     ID_WEAPON_LOCK{
       keyboardKey:i=2
     }
@@ -710,9 +715,9 @@ settings{
   aimTimeNonlinearityWalker:r=0
   aimTimeNonlinearityShip:r=0
   aimTimeNonlinearitySubmarine:r=0
-  aimAccelerationDelayAir:r=0.5
+  aimAccelerationDelayAir:r=0
   aimAccelerationDelayHelicopter:r=0.5
-  aimAccelerationDelayTank:r=0.4
+  aimAccelerationDelayTank:r=0
   aimAccelerationDelayWalker:r=0.5
   aimAccelerationDelayShip:r=0.5
   aimAccelerationDelaySubmarine:r=0.5
@@ -724,7 +729,7 @@ settings{
   gamepadMinVibration:r=0.05
   cameraSmooth:r=0
   cameraSpeed:r=0.95
-  cameraMouseSpeed:r=2.75
+  cameraMouseSpeed:r=3.5
   cameraFpsPhysMult:r=0.5
   vrCameraFpsPhysMult:r=0
   invertY:b=no
