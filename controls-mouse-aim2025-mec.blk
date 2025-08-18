@@ -655,7 +655,7 @@ controls{
     USEROPT_INVERTY_SPECTATOR:b=no
     USEROPT_INVERTY_SUBMARINE:b=no
     USEROPT_JOYFX:b=yes
-    USEROPT_MOUSE_SENSE:i=15
+    USEROPT_MOUSE_SENSE:i=20
     USEROPT_MOUSE_USAGE_NO_AIM:i=0
     USEROPT_REPLAY_CAMERA_WIGGLE:i=0
     USEROPT_RUDDER_MULTIPLIER:i=0
@@ -688,7 +688,7 @@ settings{
   freeCameraInertia:r=0.4
   replayCameraWiggle:r=0
   zoomSens:r=0
-  mouseSens:r=0.3
+  mouseSens:r=0.4
   mouseAimSens:r=0.5
   gunnerViewSens:r=1
   gunnerViewZoomSens:r=1
