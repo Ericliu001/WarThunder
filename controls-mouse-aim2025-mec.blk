@@ -224,6 +224,7 @@ controls{
       keyboardKey:i=45
     }
 
+    ID_LOCK_TARGETING_AT_POINT{}
     ID_MPSTATSCREEN{
       keyboardKey:i=49
     }
