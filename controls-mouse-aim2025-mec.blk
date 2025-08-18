@@ -716,11 +716,11 @@ settings{
   aimTimeNonlinearityShip:r=0
   aimTimeNonlinearitySubmarine:r=0
   aimAccelerationDelayAir:r=0
-  aimAccelerationDelayHelicopter:r=0.5
+  aimAccelerationDelayHelicopter:r=0
   aimAccelerationDelayTank:r=0
-  aimAccelerationDelayWalker:r=0.5
-  aimAccelerationDelayShip:r=0.5
-  aimAccelerationDelaySubmarine:r=0.5
+  aimAccelerationDelayWalker:r=0
+  aimAccelerationDelayShip:r=0
+  aimAccelerationDelaySubmarine:r=0
   mouseZMultAir:r=1
   mouseZMultHelicopter:r=0.5
   mouseZMultTank:r=0.4
