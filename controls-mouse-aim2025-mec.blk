@@ -76,6 +76,11 @@ controls{
       keyboardKey:i=59
     }
 
+    ID_CAMERA_VIEW_BACK{
+      keyboardKey:i=219
+      keyboardKey:i=42
+    }
+
     ID_CAMERA_VIRTUAL_FPS{
       keyboardKey:i=61
     }
