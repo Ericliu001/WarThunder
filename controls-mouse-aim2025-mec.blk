@@ -77,8 +77,7 @@ controls{
     }
 
     ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=219
-      keyboardKey:i=42
+      keyboardKey:i=58
     }
 
     ID_CAMERA_VIRTUAL_FPS{
@@ -244,6 +243,7 @@ controls{
       keyboardKey:i=51
     }
 
+    ID_OPEN_VISUAL_WEAPON_SELECTOR{}
     ID_PROP_PITCH_AUTO{
       keyboardKey:i=54
       keyboardKey:i=43
@@ -366,11 +366,6 @@ controls{
     ID_SENSOR_SCAN_PATTERN_SWITCH{
       keyboardKey:i=56
       keyboardKey:i=44
-    }
-
-    ID_SENSOR_SWITCH{
-      keyboardKey:i=56
-      keyboardKey:i=19
     }
 
     ID_SENSOR_SWITCH_TANK{
