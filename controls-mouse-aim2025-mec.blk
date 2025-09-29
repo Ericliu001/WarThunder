@@ -320,6 +320,10 @@ controls{
       keyboardKey:i=4
     }
 
+    ID_SELECT_GM_GUN_MACHINEGUN{
+      keyboardKey:i=41
+    }
+
     ID_SELECT_GM_GUN_PRIMARY{
       keyboardKey:i=29
       keyboardKey:i=2
