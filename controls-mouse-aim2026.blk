@@ -22,10 +22,6 @@ controls{
       keyboardKey:i=3
     }
 
-    ID_AIR_BRAKE{
-      keyboardKey:i=34
-    }
-
     ID_ARTILLERY_CANCEL{}
     ID_BAY_DOOR{
       keyboardKey:i=219
@@ -91,11 +87,7 @@ controls{
     }
 
     ID_COMPLEX_ENGINE{
-      keyboardKey:i=14
-    }
-
-    ID_COMPLEX_ENGINE{
-      keyboardKey:i=35
+      keyboardKey:i=34
     }
 
     ID_CONTINUE{
