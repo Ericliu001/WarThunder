@@ -45,7 +45,7 @@ controls{
     }
 
     ID_CAMERA_BOMBVIEW{
-      keyboardKey:i=64
+      keyboardKey:i=63
     }
 
     ID_CAMERA_COMMANDER{
@@ -56,12 +56,12 @@ controls{
       keyboardKey:i=42
     }
 
-    ID_CAMERA_FPS{
-      keyboardKey:i=62
+    ID_CAMERA_FOLLOW_OBJECT{
+      keyboardKey:i=64
     }
 
-    ID_CAMERA_GUNNER{
-      keyboardKey:i=63
+    ID_CAMERA_FPS{
+      keyboardKey:i=62
     }
 
     ID_CAMERA_GUNNER{
@@ -76,10 +76,7 @@ controls{
       keyboardKey:i=59
     }
 
-    ID_CAMERA_VIEW_BACK{
-      keyboardKey:i=58
-    }
-
+    ID_CAMERA_VIEW_BACK{}
     ID_CAMERA_VIRTUAL_FPS{
       keyboardKey:i=61
     }
@@ -427,7 +424,7 @@ controls{
     }
 
     ID_SUPERCHARGER{
-      keyboardKey:i=12
+      keyboardKey:i=58
     }
 
     ID_SUPPORT_PLANE_ORBITING{}
