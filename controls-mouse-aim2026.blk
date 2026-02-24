@@ -60,6 +60,10 @@ controls{
       keyboardKey:i=64
     }
 
+    ID_CAMERA_FOLLOW_OBJECT{
+      keyboardKey:i=22
+    }
+
     ID_CAMERA_FPS{
       keyboardKey:i=62
     }
@@ -197,6 +201,7 @@ controls{
       mouseButton:i=3
     }
 
+    ID_FLARES{}
     ID_FLIGHTMENU{
       keyboardKey:i=1
     }
@@ -724,12 +729,14 @@ settings{
   aimTimeNonlinearityWalker:r=0
   aimTimeNonlinearityShip:r=0
   aimTimeNonlinearitySubmarine:r=0
-  aimAccelerationDelayAir:r=0.15
+  aimTimeNonlinearityHuman:r=0
+  aimAccelerationDelayAir:r=0.1
   aimAccelerationDelayHelicopter:r=0
   aimAccelerationDelayTank:r=0.15
   aimAccelerationDelayWalker:r=0
   aimAccelerationDelayShip:r=0
   aimAccelerationDelaySubmarine:r=0
+  aimAccelerationDelayHuman:r=0.5
   mouseZMultAir:r=1
   mouseZMultHelicopter:r=0.5
   mouseZMultTank:r=0.4
@@ -739,7 +746,7 @@ settings{
   cameraSmooth:r=0
   cameraSpeed:r=0.95
   cameraMouseSpeed:r=3.5
-  cameraFpsPhysMult:r=0.5
+  cameraFpsPhysMult:r=0
   vrCameraFpsPhysMult:r=0
   invertY:b=no
   invertX:b=no
@@ -760,4 +767,5 @@ settings{
   forceGain:r=1
   cameraShakeMultiplier:r=0
   vrCameraShakeMultiplier:r=1
+  holdBtnToGrabHotas:b=no
 }
